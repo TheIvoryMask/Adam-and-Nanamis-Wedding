@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Shippori+Mincho+B1&family=Tangerine:wght@400;700&display=swap" rel="stylesheet"></head>
+<body>
+
+<div class="off-screen-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#welcome">Welcome</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#seating">Seating Chart</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#location">Location</a></li>
+            </ul>
+</div>
+        <nav>
+                    <h1>Adam and Nanami's Wedding</h1>
+        
+            <div class="ham-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+
+    <div class="container">
+        <div class="splash">
+            
+            <h3>Thank you for coming to our wedding. Enjoy our special day.</h3>
+            <div class="date">
+                <p>March 7th</p>
+                <p>2026</p>
+                <p>Adam and Nanami</p>
+            </div>
+        </div>
+        <div class="welcome" id="welcome">
+            <div class="welcome-text">
+                <h2>Welcome!</h2>
+                <p>We are so excited to share this special day with you. Here you will find all the information you need about our wedding ceremony, reception, and accommodations. Thank you for being a part of our lives and celebrating with us!</p>
+            </div>
+        </div>    
+       <div class="schedule" id="schedule">
+        
+            <h2>Today's Schedule</h2>
+            <p>Please arrive at the venue 30 minutes before it begins.</p>
+            <div class="schedule-box">
+
+                <img class="schedule-image" src="schedule with a leaf_eng.png" alt="Wedding Schedule">
+                
+            </div>
+        </div> 
+      <div class="seating-chart" id="seating">
+            <h2>Seating Chart</h2>
+            <p>Click on your table to see the seating arrangement.</p>
+            <div class="table-container">
+                <div class="table-1 table">
+                    <button class="table-btn" data-table="A">A</button>
+                    <button class="table-btn" data-table="B">B</button>
+                </div>
+                <div class="table-2 table">
+                    <button class="table-btn" data-table="C">C</button>
+                    <button class="table-btn" data-table="D">D</button>
+                    <button class="table-btn" data-table="E">E</button>
+                </div>
+                <div class="table-3 table">
+                    <button class="table-btn" data-table="F">F</button>
+                    <button class="table-btn" data-table="G">G</button>
+                    <button class="table-btn" data-table="H">H</button>
+                </div>
+            </div>
+        </div>
+
+            </div>
+        <div class="menu" id="menu">
+            <h2>Menu</h2>
+<ul>
+  <li>Five Assorted Welcome Canapés</li>
+  <li>Atsumi Premium Lax Salmon and Poached Egg, Served in a Ring Mold</li>
+  <li>Penne with Porcini Mushrooms and Lentils</li>
+  <li>Potato Potage Soup</li>
+  <li>Spiced Grilled Lobster</li>
+  <li>Australian Beef and Japanese Beef Assortment, Served with Salt, Pepper, and Wasabi</li>
+  <li>Surprise Choice Dessert:</li>
+  <li>1. Orange Tart with Milk Chocolate Cream and Mango Sauce</li>
+  <li>2. Mont Blanc with Soy Milk Mousse, Finished with Pistachio Sauce</li>
+  <li>3. Rich Melt-in-Your-Mouth Fromage Cheesecake</li>
+</ul>
+        </div>
+        <div class="location" id="location">
+            <h2>After Party Location</h2>
+            <div class="address">
+                <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1630.7137008427594!2d136.8818280786256!3d35.17089853888267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600377cc2bde75cb%3A0x69bfc3fd4958fa4e!2z44K344Ol44Oe44OD44OEIOWQjeWPpOWxi-OCv-ODr-ODvOOCuuODl-ODqeOCtg!5e0!3m2!1sen!2sjp!4v1771143476471!5m2!1sen!2sjp" width="250" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                <div class="address-text">
+                    <p>シュマッツビアダイニング　名駅タワーズプラザ店</p>
+                    <p>〒450-6013</p>
+                    <p>愛知県名古屋市中村区名駅1-1-4 JRセントラルタワーズ13階</p>
+                    <p>TEL: 052-526-0031</p>
+                    <p>From 8:30pm for 2 hours.</p>
+                </div>
+            </div>
+            <!-- <button class="afterparty">After Party Details</button> -->
+        </div>   
+
+    </div>
+        <div class="modal-overlay" id="modalOverlay">
+            <div class="modal">
+                <div class="table-visual"></div>
+                <div class="seats" id="seats"></div>
+            </div>
+        </div>
+    <footer>
+        <button onclick="window.location.href='#welcome'">Welcome</button>
+        <button onclick="window.location.href='#seating'">Seating</button>
+        <button onclick="window.location.href='#menu'">Menu</button>
+        <button onclick="window.location.href='#location'">Location</button>
+        
+        <p>The Geercke Family Wedding</p>
+    </footer>
+
+<script src="script.js"></script>
+</body>   
