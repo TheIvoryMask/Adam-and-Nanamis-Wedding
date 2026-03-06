@@ -489,7 +489,7 @@ body.modal-open {
   max-width: 400px; 
   pointer-events: auto;
   box-sizing: border-box;
-  padding-right: 80px;
+  /* padding-right: 80px; */
 }
 
 
@@ -699,3 +699,4 @@ body.modal-open {
 
 .lang img:nth-child(1) { animation: fadeUp 1s ease-out}
 .lang img:nth-child(2) { animation: fadeUp 1s ease-out  } */
+
