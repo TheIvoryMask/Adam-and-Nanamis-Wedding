@@ -9,11 +9,11 @@ const tableSections = {
   },
   C: {
     side: "bottom",
-    names: ["余 語 穂ノ実様", "青 木 菜々子様", "武 田 京 子様", "木 全 桃 子様", "Arslan Sefkan様", "バルテル安 那様"]
+    names: ["余 語 穂ノ実様", "青 木 菜々子様", "武 田 京 子様", "木 全 桃 子様", "Arslan Sefkan様", ""]
   },
   D: {
     side: "top",
-    names: ["Gowland Nicholas様", "Bartel Adam様", "ガウランド 萌様", "Lamert Samuel様", "Thomas Anna様", "Gourdine Alice様"]
+    names: ["Gowland Nicholas様", "Bartel Adam様", "ガウランド 萌様", "Lamert Samuel様", "", "Gourdine Alice様"]
   },
   E: {
     side: "bottom",
@@ -25,7 +25,7 @@ const tableSections = {
   },
   G: {
     side: "bottom",
-    names: ["笠 井 美由貴様", "有 山 美 咲様", "倉 原 このみ様", "茂 木 咲 野様", "山 田 伸 吾様", "ダシルバ里 菜様", "川 西 直 也様", "ダシルバ レオナルド様"]
+    names: ["", "有 山 美 咲様", "倉 原 このみ様", "茂 木 咲 野様", "山 田 伸 吾様", "ダシルバ里 菜様", "川 西 直 也様", "ダシルバ レオナルド様"]
   },
   H: {
     side: "bottom",
