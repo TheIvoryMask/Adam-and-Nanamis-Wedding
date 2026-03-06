@@ -483,7 +483,7 @@ body.modal-open {
   transform: translate(-50%, -50%);
   
   display: flex;
-  gap: 80px;
+  gap: 90px;
   justify-content: space-between;
   width: 80%;
   max-width: 400px; 
@@ -699,4 +699,5 @@ body.modal-open {
 
 .lang img:nth-child(1) { animation: fadeUp 1s ease-out}
 .lang img:nth-child(2) { animation: fadeUp 1s ease-out  } */
+
 
