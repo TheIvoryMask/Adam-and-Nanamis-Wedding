@@ -30,7 +30,14 @@ html[lang="ja"] h2, h3 {
   font-family: "Shippori Mincho B1", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 30px;
+  font-size: 24px;
+}
+
+html[lang="ja"]　li　{
+  font-family: "Shippori Mincho B1", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
 }
  
 nav {
@@ -38,11 +45,8 @@ nav {
   background-color: #74875B;
   margin-top: 0;
   color: rgb(36, 35, 35);
-  text-align: center;
-  align-content: center;
   height: 60px;
   margin: 0;
-  padding: 3px;
   font-weight: 400;
 }
 
@@ -118,9 +122,11 @@ margin: 0;
 .ham-menu {
   height: 100%;
   width: 40px;
+  justify-content: center;
   position: relative;
   margin-left: auto;
-  margin-right: 5px;
+  padding-left: 5px;
+  z-index: 102;
 }
 .off-screen-menu li {
   margin: 20px 0;
@@ -128,7 +134,8 @@ margin: 0;
 
 .ham-menu span {
   height: 5px;
-  width: 100%;
+  width: 80%;
+  align-content: center;
   background-color: black;
   border-radius: 25px;
   position: absolute;
@@ -365,7 +372,7 @@ margin: 0;
 
 .menu li {
   margin: 20px 0;
-  font-size: 20px;
+  font-size: 16px;
   list-style: none;
 }
 
@@ -405,7 +412,7 @@ footer {
   text-align: center;
   padding: 10px;
   background-color: #74875B;
-  min-height: 20vh;
+  min-height: 10vh;
 }
 
 footer button {
@@ -478,11 +485,11 @@ body.modal-open {
   display: flex;
   gap: 80px;
   justify-content: space-between;
-  width: 80%; /* or exact pixel width if you prefer */
-  max-width: 400px; /* matches modal size roughly */
+  width: 80%;
+  max-width: 400px; 
   pointer-events: auto;
   box-sizing: border-box;
-  padding-right: 100px;
+  padding-right: 80px;
 }
 
 
